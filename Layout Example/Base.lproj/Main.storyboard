@@ -29,7 +29,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FkD-XY-q3a">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FkD-XY-q3a">
                                 <rect key="frame" x="493" y="550" width="91" height="30"/>
                                 <state key="normal" title="Bottom Right">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -52,7 +52,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="9ek-WO-nla" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="3zO-66-vRy"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="FkD-XY-q3a" secondAttribute="bottom" constant="20" id="J7L-G1-azO"/>
                             <constraint firstItem="9ek-WO-nla" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="Ovs-rD-unp"/>
+                            <constraint firstItem="FkD-XY-q3a" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="VFu-Pr-Mdp"/>
                         </constraints>
                     </view>
                 </viewController>
